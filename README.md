@@ -2,18 +2,19 @@
 
 Official Homebrew and Linuxbrew formulae for [Health.md](https://health.md).
 
-Install the explicitly unqualified Health.md CLI public preview on macOS or Linux:
+No Health.md CLI formula is currently published. Once the first checksummed public preview passes
+its release and clean-install gates, install it on macOS or Linux with:
 
 ```sh
 brew install CodyBontecou/tap/healthmd
 healthmd --version
 ```
 
-The tap currently tracks preview releases. Package publication does not qualify a CLI/mobile pair;
-use the exact matching Health.md mobile build named by the release evidence. The first stable CLI
-release remains gated on the complete physical-device compatibility matrix.
+Preview publication does not qualify a CLI/mobile pair. Use only the exact matching Health.md mobile
+build named by published release evidence. The first stable CLI release remains gated on the
+complete physical-device compatibility matrix.
 
-Upgrade with:
+After publication, upgrade with:
 
 ```sh
 brew update
