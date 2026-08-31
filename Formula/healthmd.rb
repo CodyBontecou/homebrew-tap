@@ -1,25 +1,25 @@
 class Healthmd < Formula
   desc "Portable command-line client for Health.md"
   homepage "https://health.md"
-  version "0.1.0-alpha.3"
+  version "0.1.0-alpha.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/CodyBontecou/health-md/releases/download/healthmd-cli/v0.1.0-alpha.3/healthmd-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "8ea16f2d4672d7b1d665e17787d672732bac870413f544772a589bb344fc45e2"
+      url "https://github.com/CodyBontecou/health-md/releases/download/healthmd-cli/v0.1.0-alpha.4/healthmd-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "6f8c84bba674252b3733a492c6e7dc576f8649c1ca8bcc20c436b26b715e0249"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/CodyBontecou/health-md/releases/download/healthmd-cli/v0.1.0-alpha.3/healthmd-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "7829f25c0e280dd7e948daddc94f486a674188f1dc154220ebfc6dec6ec76380"
+      url "https://github.com/CodyBontecou/health-md/releases/download/healthmd-cli/v0.1.0-alpha.4/healthmd-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "98502466c479f8829e017986c3c409605313e44e4d3bc21ab8a0b5a3772d731d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/CodyBontecou/health-md/releases/download/healthmd-cli/v0.1.0-alpha.3/healthmd-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "43bd57827db930d9cd271b305d1cf40b52540f48e83aaaf9ab4e27a8756e7ab7"
+      url "https://github.com/CodyBontecou/health-md/releases/download/healthmd-cli/v0.1.0-alpha.4/healthmd-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "cc80ed2104de7d3e7d39e91dec2904be7edcd7518773707f8b2dd3a678be6fa9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/CodyBontecou/health-md/releases/download/healthmd-cli/v0.1.0-alpha.3/healthmd-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f952c35fc4c448e533d0d742bbd4a0ca6d66143d9b257aa18d35ee9b004a6ba3"
+      url "https://github.com/CodyBontecou/health-md/releases/download/healthmd-cli/v0.1.0-alpha.4/healthmd-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "5d26e1927b3eae656b0aec38c7f7a69e83a21855a83632ecb389a16b108af9ad"
     end
   end
   license "AGPL-3.0-only"
